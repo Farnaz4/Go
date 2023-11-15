@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 
-func main(){
+func main1(){
 
 	//initialize variable here
 
