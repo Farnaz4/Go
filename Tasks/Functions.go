@@ -41,3 +41,9 @@ func incrementSends(sendsSoFar, sendsToAdd int) int {
 	return sendsSoFar
 
 }
+
+
+
+
+//Ignoring return values
+//We can explicitly use _ to ignore variables
