@@ -43,7 +43,7 @@ import "fmt"
 
 //=============================Lesson 2==================
 
-tyoe messageToSend struct {
+type messageToSend struct {
 
 	message string
 	sender user
@@ -58,5 +58,18 @@ type user struct {
 
 func canSendMessage(mToSend, messageToSend) bool{
 	//?
+	if mToSend.sender.name == "" {
+		return false
+	}
+	if mToSend.sender.number == 0 {
+		return false
+	}
+	if mToSend.recipeint.name == "" {
+		return false
+	}
+	if mToSend.recipeint.number == 0 {
+		return false
+	}
 	return true
+
 }
